@@ -1,0 +1,30 @@
+
+header {
+    height: 30vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.logo {
+position: absolute;
+left: 50%;
+top: 3%;
+
+    height: 15rem;
+    width: 15rem;
+transform: translateX(-50%);
+}
+
+.header__icons {
+    position: absolute;
+    left: 75%;
+    top: 5%;
+    & a {
+        margin-left: 1rem;
+    }
+    
+
+
+}
