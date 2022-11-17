@@ -7,6 +7,10 @@ function connect() {
 return (
     <section>
         
+        <label htmlFor="nom">Mon nom</label>
+        <label htmlFor="nom">Mon prénom</label>
+        <label htmlFor="nom">Mon email</label>
+        <input type="text" />
     </section>
 );
 }
