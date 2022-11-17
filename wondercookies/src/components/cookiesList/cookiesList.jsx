@@ -23,13 +23,7 @@ return (
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide><Article/></SwiperSlide>
-      <SwiperSlide><Article/></SwiperSlide>
-      <SwiperSlide><Article/></SwiperSlide>
-      <SwiperSlide><Article/></SwiperSlide>
-      <SwiperSlide><Article/></SwiperSlide>
-      <SwiperSlide><Article/></SwiperSlide>
-      <SwiperSlide><Article/></SwiperSlide>
-      <SwiperSlide><Article/></SwiperSlide>
+  
       ...
     </Swiper>
         <ul className='list--cookies'>

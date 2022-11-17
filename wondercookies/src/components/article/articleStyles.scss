@@ -1,9 +1,80 @@
-.article {
-    
-    background: #d3228f7a;
-    // opacity: 50%;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+.card {
+    box-sizing: content-box;
+    position: relative;
+    width:20rem;
+    height:27rem;
+    background:rgba(204, 204, 204, 0.511);
     backdrop-filter: blur(5px);
-    border-radius:  2.5rem;
-    margin: 3rem 1rem 2rem;
-    color: rgb(1, 1, 1);
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1;
+
+    // background: #d3228f7a;
+    // // opacity: 50%;
+    // backdrop-filter: blur(5px);
+    // border-radius:  2.5rem;
+    // margin: 3rem 1rem 2rem;
+    // color: rgb(1, 1, 1);
+}
+h1{
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    top:-10%;
+    z-index: 2;
+    
+}
+
+.card .circle {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.card .circle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #831338;
+    clip-path: circle(4rem at center) ;
+
+}
+
+.card .circle:hover:before {
+    content: '';
+    
+    background: #831338;
+    clip-path: circle(20rem at center) ;
+    transition:  0.8s;
+
+}
+
+.card img {
+    position:absolute;
+    height:11rem;
+    width: 11rem;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+    pointer-events: none;
+
+}
+
+.card:hover img {
+    top: 60%;
+    transition: 0.8s;
+
+
 }

@@ -7,17 +7,17 @@ import './articleStyles.scss';
 function article() {
 return (
     <article className='card'>
+        <h1>cookies choco</h1>
         <div className='circle'>
 
-        {/* <h1>cookies choco</h1>
         <img src={COOKIES} alt="cookies" />
-            <div className='article--describe'>
+        </div>
+            {/* <div className='article--describe'>
             <h3>ingredients</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere aspernatur inventore temporibus commodi alias in.</p>
             <h3>allergenes</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere aspernatur inventore temporibus commodi alias in.</p>
             </div> */}
-        </div>
 
 
 
